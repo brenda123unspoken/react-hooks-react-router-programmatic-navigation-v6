@@ -1,0 +1,127 @@
+Client-Side Routing Quiz
+Due No due date Points 10 Questions 10 Time limit None Allowed attempts 3
+This quiz is no longer available as the course has been concluded.
+Attempt history
+Attempt	Time	Score
+LATEST	Attempt 1	7 minutes	8 out of 10
+ Answers will be shown after your last attempt
+Score for this attempt: 8 out of 10
+Submitted 13 Jun 2024 at 14:30
+This attempt took 7 minutes.
+ 
+PartialQuestion 1
+0.67 / 1 pts
+What are the benefits of client-side routing? (Select all that apply)
+  Faster initial page load. 
+Client-side routing has a longer initial page load, because it loads everything at the beginning, as opposed to when a route is requested.
+  Easier for analytical tools to track page views. 
+  I don't know.
+  Programmatic navigation. 
+Correct! Client-side routing makes it easier to programmatically navigate a user to a new page on our side.
+  Conditionally rendering components based on the URL. 
+Correct! Client-side routing makes it easier to access data from the URL using JavaScript, so we can conditionally render different components based on the URL.
+  Speed when navigating within the application. 
+Correct! With client-side routing, we don't have to wait for a new HTML document and all its associated content to load whenever a user clicks a link to visit another page on our site.
+Source/s:
+
+Introduction to Client-Side Routing
+ 
+Question 2
+1 / 1 pts
+Which hook should we use to access the dynamic pieces of a URL?
+  useState
+  useNavigate
+  useParams
+Correct! The useParams hookLinks to an external site.returns a key/value pair of parameters taken from the current URL.
+  I don't know.
+Source/s:
+
+React Router Code-Along
+ 
+Question 3
+1 / 1 pts
+The useParams hook allows a component to access data based on the dynamic portion of the URL, such as /dogs/:id.
+  True 
+  False 
+Source/s:
+
+React Router Code-Along
+ 
+PartialQuestion 4
+0.33 / 1 pts
+Which of the following are keys in a route object? (Select all that apply)
+  element 
+Correct! The element key specifies which component should be rendered on that route.
+  path 
+Correct! The path key defines the endpoint of a specific route.
+  error 
+  target 
+  params 
+  I don't know.
+  children 
+Source/s:
+
+Introduction to Client-Side Routing
+Nested Routing Code-Along
+ 
+Question 5
+1 / 1 pts
+Server-side routing is when the route is handled by the JavaScript that is loaded on the page.
+  True 
+  False 
+Correct! Server-side routing happens when a route requests a new page or data from the server.
+
+With client-side routing, the routing is the responsibility of the client-side JavaScript code.
+
+Source/s:
+
+Introduction to Client-Side Routing
+ 
+Question 6
+1 / 1 pts
+We use ______ to change the browser's URL and show the user a new page in our application without making the user click on a link.
+  Programmatic Navigation 
+Correct! Programmatic Navigation is useful when you want a user to be shown a new page on your site following some action other than clicking a link. For example, we could use programmatic navigation to show a new page after they've submitted a form.
+  I don't know
+  Client-Side Routing 
+  Dynamic Routing 
+Source/s:
+
+Programmatic Navigation
+ 
+Question 7
+1 / 1 pts
+Which hook gives us the ability to programmatically navigate the user to a new page in our application?
+  I don't know.
+  useState
+  useParams
+  useNavigate
+Correct! We invoke theuseNavigateLinks to an external site. hook and access the function it returns to programmatically navigate users to whichever route we specify.
+Source/s:
+
+Programmatic Navigation
+ 
+IncorrectQuestion 8
+0 / 1 pts
+The ______ function accepts an array of route objects as its argument and returns the router that powers client-side routing in a React application.
+BrowserRouter
+Source/s:
+
+React Router Code-Along
+ 
+Question 9
+1 / 1 pts
+The _____ hook returns an object of key/value pairs of URL parameters.
+useParams
+Source/s:
+
+React Router Code-Along
+ 
+Question 10
+1 / 1 pts
+______ is the process of handling all the routing logic with JavaScript, without making any additional GET requests for some new HTML document.
+Client-Side Routing
+Source/s:
+
+Introduction to Client-Side Routing
+Quiz score: 8 out of 10
